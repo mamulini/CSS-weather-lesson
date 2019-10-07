@@ -1,111 +1,134 @@
-*{transition: all .1s ease-in;}
-body{
+* {
+    transition: all .1s ease-in;
+}
+
+body {
     border: 15px solid #2B81AC;
     color: #fff;
     background-color: #3399CC;
     font-family: sans-serif;
-    margin: 0px 0px ;
     font-size: 0pt;
     padding: 0;
     margin: 0;
-        
-   
-    
-    
+
 }
-header, footer, ul{
-     margin: 0px 210px 
+
+header,
+footer,
+ul {
+    margin: 0px 210px
 }
-footer{
+
+footer {
     margin-bottom: 13%
 }
-h1{
+
+h1 {
     font-size: 22pt
 }
-p{
-   font-size: 14pt 
+
+p {
+    font-size: 14pt
 }
-ul{
+
+ul {
     list-style: none;
     border: 5px solid #fff;
     padding: 0;
-    }
-li{
+}
+
+li {
     display: inline-block;
     text-align: center;
-    padding: 30px;
+    padding: 10px 30px;
     width: 17.81%;
     font-size: 14pt;
-    vertical-align:middle;
-    margin: 0
-        
-   
-        
+    vertical-align: middle;
+    margin: 0;
+
+
 }
-li.Lisboa{
-   background-color: #009ACF; 
+
+li.Lisboa {
+    background-color: #009ACF;
     width: 43%;
-   
+
     border-bottom: 5px solid #fff;
     border-right: 5px solid #fff;
-    
+
 }
-li.Paris{
+
+li.Paris {
     background-color: #00CDCD;
     border-bottom: 5px solid #fff;
     border-right: 5px solid #fff;
 }
-li.Belgrade{
+
+li.Belgrade {
     background-color: #AA669C;
     border-bottom: 5px solid #fff;
-    }
-li.Moscow{
+}
+
+li.Moscow {
     background-color: #DF4545;
-     border-bottom: 5px solid #fff;
+    border-bottom: 5px solid #fff;
     border-right: 5px solid #fff;
 }
-li.Tel_Aviv{
+
+li.Tel_Aviv {
     background-color: #FF6747;
-     border-bottom: 5px solid #fff;
+    border-bottom: 5px solid #fff;
     border-right: 5px solid #fff;
 }
-li.Cair{
+
+li.Cair {
     background-color: #FFCD5E;
-     border-bottom: 5px solid #fff;
+    border-bottom: 5px solid #fff;
     border-right: 5px solid #fff;
     width: 17.89%;
 }
-li.New_York{
+
+li.New_York {
     background-color: #7ECD98;
-     border-bottom: 5px solid #fff;
+    border-bottom: 5px solid #fff;
     width: 17.8%;
-  }
-li.New_Delhi{
+}
+
+li.New_Delhi {
     background-color: #439A9A;
-     border-bottom: 5px solid #fff;
+    border-bottom: 5px solid #fff;
     border-right: 5px solid #fff;
 }
-li.San_Francisco{
+
+li.San_Francisco {
     background-color: #E7669C;
     width: 43%;
-     border-bottom: 5px solid #fff;
+    border-bottom: 5px solid #fff;
     border-right: 5px solid #fff;
-    
+
 }
-li.Tokyo{
+
+li.Tokyo {
     background-color: #009A63;
-     border-bottom: 5px solid #fff;
-    
+    border-bottom: 5px solid #fff;
+
 }
-li.Sydney{
+
+li.Sydney {
     background-color: #66669C;
     width: 93.3%;
-    
+
 }
-li a:hover{
-    opacity: 0.5
+
+li:hover {
+    opacity: 0.5;
+
 }
-a, a:hover, a:active, a:visited {
+
+a,
+a:hover,
+a:active,
+a:visited {
     color: #fff;
     text-decoration: none;
 }
